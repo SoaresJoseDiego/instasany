@@ -45,7 +45,7 @@ export function SectionHero() {
   }, [])
 
   return (
-    <section className="relative w-full bg-green-primary bg-hero h-section-hero border-t bg-top bg-no-repeat bg-center border-t-green-border pt-16 overflow-hidden">
+    <section className="relative w-full bg-green-primary bg-hero h-section-hero border-t bg-top bg-no-repeat bg-center border-t-green-border pt-6 overflow-hidden">
       <GridContainer className="flex flex-col items-center">
         <div className="w-full max-w-text-hero text-center opacity-0" ref={textHeroRef}>
           <h3 className="text-xl- font-medium text-green-actived mb-4">
@@ -66,7 +66,7 @@ export function SectionHero() {
             </button>
           </div>
         </div>
-        <div className="relative max-w-area-icons w-full mt-4 h-40 ">
+        <div className="relative max-w-area-icons w-full mt-4 h-16 ">
           <Image
             src={IconHand}
             alt="Icon Hand"
@@ -79,7 +79,7 @@ export function SectionHero() {
             className="absolute top-0 right-0"
           />
         </div>
-        <div className="absolute bottom-0 w-full -bottom-44 max-w-area-mockups flex justify-between ">
+        <div className="absolute bottom-0 w-full -bottom-48 max-w-area-mockups flex justify-between ">
           <Image src={IconMokcup}  ref={mockupLeftRef} alt="Mockup" className="relative  top-[1.125rem] left-[3.3rem]" />
             
             <Image src={IconMokcup} ref={mockupRightRef} alt="Mockup" className="relative  top-[1.125rem] right-[3.3rem]" />
