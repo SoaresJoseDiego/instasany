@@ -79,7 +79,7 @@ export function SectionHero() {
             className="absolute top-0 right-0"
           />
         </div>
-        <div className="absolute bottom-0 w-full -bottom-48 max-w-area-mockups flex justify-between ">
+        <div className="absolute  w-full -bottom-48 max-w-area-mockups flex justify-between ">
           <Image src={IconMokcup}  ref={mockupLeftRef} alt="Mockup" className="relative  top-[1.125rem] left-[3.3rem]" />
             
             <Image src={IconMokcup} ref={mockupRightRef} alt="Mockup" className="relative  top-[1.125rem] right-[3.3rem]" />
