@@ -66,7 +66,7 @@ export function SectionHero() {
             </button>
           </div>
         </div>
-        <div className="relative max-w-area-icons w-full mt-4 h-6 ">
+        <div className="relative max-w-area-icons w-full mt-4 h-40 ">
           <Image
             src={IconHand}
             alt="Icon Hand"
